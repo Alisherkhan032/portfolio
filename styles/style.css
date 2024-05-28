@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#172836;
+    color: #e2e8f0;
+    height: 100vh;
+    /* width: 100vw; */
+}
+.container
+{
+    display: flex;
+  
+}
+.sidebar
+{
+    position: sticky;
+    top: 65px;
+    height: fit-content;
+    width: 300px;
+    background-color:#253644;
+    margin-left: 50px;
+    margin-top: 60px;
+    border: 2px solid #363738; 
+    border-radius: 10px;
+}
+.main
+{
+    position: relative;
+    height: auto;
+    width: 850px;
+    background-color:#253644;
+    margin-left: 30px;
+    margin-top: 60px;
+    border: 2px solid #363738; 
+    border-radius: 10px;
+}
+.about-p{
+    font-size: 18px;
+    color: lightgray;
+}
+.title
+{
+    /* position: absolute */
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+.title2{
+    margin-top: 40px;
+    margin-left: 20px;
+
+    font-size: 32px;
+}
+.heading{
+    font-size: 20px;
+}
+img{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10%;
+}
+.personal-info h1{
+    margin-top: 15px;
+    text-align: center;
+}
+.year
+{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #172836;
+    width: fit-content;
+    padding: 5px 12px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+.about
+{
+    margin: 20px;
+    font-size: larger;
+}
+.small-container1{
+    display: flex;
+}
+.small-container2{
+    display: flex;
+}
+.data1
+{
+    padding: 10px;
+    margin: 30px;
+    background-color: #172836;
+    height: 200px;
+    font-size: large;
+    border-radius: 10px;
+    
+}
+.data1-1
+{
+    display: flex;
+}
+.icon2{
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon3{
+    margin: 10px;
+}
+.data2
+{
+    padding: 10px;
+    margin: 30px;
+    background-color: #172836;
+    height: 200px;
+    font-size: larger;
+    border-radius: 10px;
+    
+}
+.testimonials{
+    display: flex;
+}
+.test1{
+    padding: 10px;
+    margin: 30px;
+    background-color: #172836;
+    height: 30=50px;
+    font-size: large;
+    width: auto;
+    border-radius: 10px;
+}
+.test2{
+    padding: 10px;
+    margin: 30px;
+    background-color: #172836;
+    height: 350px;
+    font-size: larger;
+    border-radius: 10px;
+}
+.linkedIN
+{
+    /* padding: -10px; */
+    margin: 30px;
+    background-color: #172836;
+    height: 300px;
+    font-size: large;
+    width: 300px;
+    /* border-radius: 10px; */
+}
+
+.contact-info
+{
+    margin: 30px;
+    color: rgb(190, 187, 187);
+}
+.contact
+{
+    color: white;
+    display: flex;
+}
+.side{
+    margin-bottom: 50px;
+    display: flex;
+}
+.contact{
+    text-decoration: none;
+}
+.icon{
+    margin-top: 4px;
+    margin-right: 4px;
+}
+a{
+    color: #e2e8f0;
+}
