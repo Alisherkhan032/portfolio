@@ -208,7 +208,12 @@ a{
     color: #e2e8f0;
 }
 @media only screen and (min-width : 1306px) {
-    .sidebar{
-        margin-left: 100px;
+    .container{
+        display: flex;
+        justify-content: center;
     }
+    .sidebar{
+        margin: 0;
+    }
+
 }
