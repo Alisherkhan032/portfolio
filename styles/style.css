@@ -30,9 +30,9 @@ body {
 }
 .profile-img{
     display: block;
-    width: 100px;
-    height: 100px;
-    margin-left: 75px;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
 
 }
 .main
@@ -80,19 +80,28 @@ img{
     margin-top: 50px;
     border-radius: 10%;
 }
-.personal-info h1{
+.personal-info h2{
     margin-top: 15px;
     text-align: center;
 }
 .year
 {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     background-color: #172836;
     width: fit-content;
     padding: 5px 12px;
     margin-left: 25px;
     border-radius: 10px;
+    font-size: 14px;
+}
+.line{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 200px;
+    height: 2px;
+    background-color: #546c80;
+    border-radius: 40px;
 }
 .about
 {
